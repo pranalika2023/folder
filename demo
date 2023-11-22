@@ -1,0 +1,18 @@
+package PROJ3;
+
+public class ConstructorPractice {
+  public int x;
+  public static void main(String[] args) {
+	  ConstructorPractice cp = new ConstructorPractice();
+	  System.out.println(cp.x);
+  }
+  public ConstructorPractice () {
+	  x = 30;
+  }
+  public ConstructorPractice(int a) {
+	  x = a;
+	  
+  }
+  
+  
+}
